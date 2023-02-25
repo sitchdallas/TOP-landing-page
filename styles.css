@@ -1,5 +1,168 @@
-.header {
-    background-color: #1F2937;
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Roboto, arial;
+}
+
+.container {
     display: flex;
-    font-family: Roboto, Arial;
+    flex-direction: column;
+}
+
+/* nav bar */
+
+.navbar {
+    display: flex;
+    color: #313131;
+    background-color: #ADD9B6;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 84px;
+    margin-right: auto;
+}
+.header-links {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.header-links a {
+    color: #313131;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+.hero {
+    display: flex;
+    color: #313131;
+    background-color: #ADD9B6;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-cta {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.hero-cta p {
+    font-family: Roboto, arial;
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #313131;
+    margin: 0;
+    font-family: Roboto, arial;
+}
+
+.hero-image img {
+    width: 500px;
+}
+
+.content {
+    align-items: center;
+    color: #313131;
+}
+
+.content-info {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #313131;
+    margin-bottom: 40px;
+}
+
+.content-info img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border: 3px solid #2F7D81;
+    border-radius: 8px;
+    margin: 5px 20px 0px 20px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e4f4fea;
+    padding: 0px 270px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Roboto, arial;
+    margin-bottom: 10px;
+}
+
+.quote b {
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+
+.skills {
+    margin-bottom: 25px;
+}
+
+.skills-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-family: Roboto, arial;
+}
+
+.skills-info img {
+    width: 80px;
+    padding: 0px 50px 0px 50px;
+}
+
+.skills-info p {
+    font-family: Roboto, arial;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.friends {
+    align-items: center;
+    color: #313131;
+}
+
+.besties {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #313131;
+    margin-bottom: 40px;
+}
+
+.besties img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: 0% 0%;
+    margin: 5px 30px 0px 30px;
 }
